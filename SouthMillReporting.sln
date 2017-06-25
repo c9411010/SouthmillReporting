@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SouthMillReporting", "..\..\WebSites\SouthMillReporting\", "{1C302F3A-4FCC-447C-86DC-A35FC01E6E2F}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		ProjectReferences = "{80a8fabe-7b5e-4dc7-b668-78f874bf9311}|SouthmillReportingDataLayer.dll;"
+		ProjectReferences = "{d06b40ed-2ff5-49bd-b167-725b71ef536f}|SouthMillReporting.Model.dll;{80a8fabe-7b5e-4dc7-b668-78f874bf9311}|SouthmillReportingDataLayer.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_54979"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\SouthMillReporting\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54979\"
@@ -26,7 +26,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SouthMillReporting", "..\..
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SouthmillReportingDataLayer", "SouthmillReportingDataLayer\SouthmillReportingDataLayer.csproj", "{80A8FABE-7B5E-4DC7-B668-78F874BF9311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SouthmillReporting.DataLayer", "SouthmillReportingDataLayer\SouthmillReporting.DataLayer.csproj", "{80A8FABE-7B5E-4DC7-B668-78F874BF9311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SouthMillReporting.Model", "SouthMillReporting.Model\SouthMillReporting.Model.csproj", "{D06B40ED-2FF5-49BD-B167-725B71EF536F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06B40ED-2FF5-49BD-B167-725B71EF536F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06B40ED-2FF5-49BD-B167-725B71EF536F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06B40ED-2FF5-49BD-B167-725B71EF536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06B40ED-2FF5-49BD-B167-725B71EF536F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
