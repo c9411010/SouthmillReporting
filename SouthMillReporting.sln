@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SouthMillReporting", "..\..\WebSites\SouthMillReporting\", "{1C302F3A-4FCC-447C-86DC-A35FC01E6E2F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{80a8fabe-7b5e-4dc7-b668-78f874bf9311}|SouthmillReportingDataLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54979"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\SouthMillReporting\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54979\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54979"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\SouthMillReporting\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54979\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54979"
+		SlnRelativePath = "..\..\WebSites\SouthMillReporting\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SouthmillReportingDataLayer", "SouthmillReportingDataLayer\SouthmillReportingDataLayer.csproj", "{80A8FABE-7B5E-4DC7-B668-78F874BF9311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C302F3A-4FCC-447C-86DC-A35FC01E6E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C302F3A-4FCC-447C-86DC-A35FC01E6E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C302F3A-4FCC-447C-86DC-A35FC01E6E2F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C302F3A-4FCC-447C-86DC-A35FC01E6E2F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A8FABE-7B5E-4DC7-B668-78F874BF9311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
